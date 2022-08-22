@@ -33,6 +33,11 @@
     color: black;
 }
 
+.sidebar li a:hover{
+    text-decoration: none;
+    color: white;
+}
+
 .main {
     /* background-color: yellow; */
     width: 90vw;
@@ -179,18 +184,23 @@
     margin: 20px;
     font-family: 'Fira Sans', sans-serif;
     
+    
 }
 
 .blogitem p{
 
     font-family: 'Source Code Pro', monospace;
+    margin-left: 50px;
+}
 
+.blogitem h2{
+    margin-left: 40px;
 }
 
 .blogcontainer h1{
 
     font-family: 'Fira Sans', sans-serif;
-    margin: 40px 20px 20px 20px;
+    margin: 40px 20px 20px 40px;
 
 }
 
@@ -199,6 +209,7 @@
     color: rgb(255, 255, 255);
     cursor: pointer;
     margin-top: 10px;
+    margin-left: 50px;
     background-color: dodgerblue;
     border-radius: 22px;
     font-size: 15px;
@@ -224,22 +235,26 @@
 
 .intro p{
     font-family: 'Source Code Pro', monospace;
-    margin: 20px;
+    margin: 20px 20px 20px 40px;
 }
 
 .intro h1{
 
-    margin: 40px 20px 20px 20px;
+    margin: 50px 20px 20px 40px;
 }
 
 .intro h2{
     font-family: 'Fira Sans', sans-serif;
-    margin: 20px 20px 20px 20px;
+    margin: 40px 20px 20px 40px;
 }
 
 .skill ol{
     margin-left: 40px;
     
+}
+
+.skill li {
+    margin: 20px 20px 20px 40px;
 }
 
 
@@ -257,9 +272,9 @@
     left: 10px;
 }
 
-.cross{
+/* .cross{
     margin-left: 80px;
-}
+} */
 
 
 
@@ -279,10 +294,10 @@
 
 @media (max-width:950px){
    
-.sidebar{
+/* .sidebar{
     transform: translate(-433px,0px);
     position: absolute;
-}
+} */
 
 .devpic{
     display: none;
